@@ -4,8 +4,8 @@ import './index.css'
 import ShoppingList from './ShoppingList/ShoppingList'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ShoppingList />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <ShoppingList />
+    </React.StrictMode>,
+    document.getElementById('root')
 )
