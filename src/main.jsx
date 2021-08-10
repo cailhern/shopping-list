@@ -1,11 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './style/index.css'
-import App from './ShoppingList'
+import './index.css'
+import ShoppingList from './ShoppingList/ShoppingList'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ShoppingList />
   </React.StrictMode>,
   document.getElementById('root')
 )
