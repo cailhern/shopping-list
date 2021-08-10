@@ -23,6 +23,8 @@
         "linebreak-style": ["error", "unix"],
         "arrow-body-style": "off",
         "prefer-arrow-callback": "off",
-        "indent": ["error", 4]
+        "indent": ["error", 4],
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+        "semi": ["error", "never"]
     }
 }
