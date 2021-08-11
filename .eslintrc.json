@@ -19,5 +19,10 @@
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
         "semi": ["error", "never"]
     },
-    "plugins": ["react"]
+    "plugins": ["react"],
+    "overrides": [
+        {
+            "files": ["*/spec.ts"]
+        }
+    ]
 }
