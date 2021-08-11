@@ -19,10 +19,5 @@
         "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
         "semi": ["error", "never"]
     },
-    "plugins": ["react"],
-    "overrides": [
-        {
-            "files": ["tests/*.test.js"]
-        }
-    ]
+    "plugins": ["react"]
 }
