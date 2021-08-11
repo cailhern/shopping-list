@@ -22,7 +22,7 @@
     "plugins": ["react"],
     "overrides": [
         {
-            "files": ["*/spec.ts"]
+            "excludedFiles": "*.test.js"
         }
     ]
 }
